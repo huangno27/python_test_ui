@@ -1,0 +1,10 @@
+import os
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+cases_file = os.path.join(base_dir, "op_datas")
+logs_file = os.path.join(base_dir, "logs", "api.log")
+case_path = os.path.join(base_dir, "Testcases")
+report_path = os.path.join(base_dir, "report")
+config_path = os.path.join(base_dir, "config_data", "config.txt")
+# test_server = os.path.join(base_dir, "config_ini", "config.ini")
+# test_server1 = os.path.join(base_dir, "config_ini", "config.txt")
+print(cases_file)
